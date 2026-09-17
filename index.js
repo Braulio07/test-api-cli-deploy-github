@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+let example_var = '';
 const express = require('express');
 const app = express();
 
@@ -9,6 +10,7 @@ app.get('/', (req, res) => {
   res.send('Hola, soy el API de servicio');
 });
 
+//Adding comment
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
