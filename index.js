@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+let example_var = '';
 const express = require('express');
 const app = express();
 
